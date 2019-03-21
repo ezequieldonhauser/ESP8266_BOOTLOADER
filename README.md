@@ -5,6 +5,8 @@ This bootloader is part of bintechnology ESP8266 applications, and now it is ope
 # Compile
 
 You can open this code with the Netbeans IDE, or just call make to compile it
+obs: you don't need the Espressif SDK to compile this project
+toolchain: xtensa-lx106-elf (GCC) 4.8.2
 
 # Output
 
