@@ -19,4 +19,6 @@ The binary is generated in the "build" folder as "bootloader.bin"
 When ESP8266 is powerup and the IOs are properly set to boot from external flash, the internal bootloader will check and load the the binary that is stored in the first block of the flash at address 0x00000, that is the place where you will store this bootloader. This bootloader as default will try to load the binary from flash at address 0x81000, or from 0x01000 if the first one fails. There is more details about the load binaries process...
 More details soon...
 
+
+-------------------------------------------------------------
 bitcoin donation: bc1qppnaphwqwshk6kqzaal28p5854cntslu0y5dw7
